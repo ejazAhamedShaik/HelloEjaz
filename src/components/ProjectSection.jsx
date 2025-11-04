@@ -6,7 +6,7 @@ import SectionHeading from './SectionHeading';
 const ProjectsSection = ({ projects, openModal }) => {
   return (
     <section id={sectionIds.projects} className="py-20">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-20">
         <SectionHeading title="My Projects" />
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -28,7 +28,7 @@ const ProjectsSection = ({ projects, openModal }) => {
                   className="w-full h-48 object-cover"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-80"></div>
+                <div className="absolute inset-0 bg-linear-gradient-to-t from-gray-900 to-transparent opacity-80"></div>
               </div>
               
               <div className="p-6">

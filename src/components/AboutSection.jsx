@@ -29,7 +29,7 @@ const AboutSection = () => {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
-                  <div className="flex-shrink-0 mt-1 mr-3 text-indigo-400">
+                  <div className="shrink-0 mt-1 mr-3 text-indigo-400">
                     <svg
                       className="w-5 h-5"
                       fill="currentColor"
